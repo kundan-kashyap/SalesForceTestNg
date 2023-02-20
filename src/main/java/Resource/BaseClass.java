@@ -15,7 +15,6 @@ import org.testng.annotations.BeforeMethod;
 public class BaseClass {
 	public WebDriver driver;
 	public Properties prop;
-
 	public void driverInitilize() throws IOException {
 		// this will read the properties file
 		FileInputStream fis = new FileInputStream(

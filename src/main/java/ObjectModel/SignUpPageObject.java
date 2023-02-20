@@ -19,7 +19,6 @@ public class SignUpPageObject {
 	public SignUpPageObject(WebDriver driver2) {
 		this.driver=driver2;
 	}
-	
 	public WebElement enterfirstname() {
 		return driver.findElement(firstname);
 	}

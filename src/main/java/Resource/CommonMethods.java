@@ -15,6 +15,5 @@ public static void handleAssertions(String actual, String expected, String messa
 	a.assertEquals(ac, exp,message);
 	a.assertAll();
 	
-	
 }
 }

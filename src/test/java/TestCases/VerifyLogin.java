@@ -15,8 +15,6 @@ public class VerifyLogin extends BaseClass {
 
 	@Test(dataProvider="testData")
 	public void Login(String username, String password) throws IOException {
-	
-		
 		LoginPageObjects obj=new LoginPageObjects(driver);
 		
 		obj.enterUsername().sendKeys(username);

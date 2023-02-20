@@ -15,11 +15,9 @@ import Resource.Constant;
 public class Signup extends BaseClass {
 	@Test
 	public void signup() throws IOException{
-		
 LoginPageObjects obj=new LoginPageObjects(driver);
 obj.clickOntryforFree().click();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
 SignUpPageObject obj1=new SignUpPageObject(driver);
 
 obj1.enterfirstname().sendKeys(Constant.firstname);

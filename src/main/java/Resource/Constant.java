@@ -12,6 +12,8 @@ public class Constant {
 		public static String company="Infotech";
 		public static String phone="8995466526";
 		public static String link="Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
-	}
+	
+
+}
 
 
